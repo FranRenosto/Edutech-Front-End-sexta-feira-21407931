@@ -1,1 +1,1 @@
-Aqui vai see a base do nosso site.
+Aqui vai ser a base do nosso site.
