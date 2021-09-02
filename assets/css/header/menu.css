@@ -3,3 +3,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.menu-lista {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0 1rem; 
+}
+
+.inicio {
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.inicio:hover {
+    color: rgb(255, 219, 13);
+}

@@ -1,0 +1,7 @@
+.nav_superior {
+    background-color: rgb(0, 194, 175);
+    padding: 1rem;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}

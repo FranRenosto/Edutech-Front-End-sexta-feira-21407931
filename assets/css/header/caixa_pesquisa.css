@@ -1,2 +1,6 @@
-.caixa-pesquisa {
+.pesquisa {
+    background: #fdfdfd;
+    cursor: pointer;
+    display: flex;
+    font-size: 2rem;
 }

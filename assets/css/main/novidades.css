@@ -1,0 +1,7 @@
+.novidades {
+    display: grid;
+}
+
+.novidades_titulo {
+    font-family: "Oswald", sans-serif;
+}

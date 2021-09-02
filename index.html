@@ -2,40 +2,45 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-
+        
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+       
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/responsivo.css">
-        <link rel="stylesheet" href="assets/css/header/cabecalho.css">
+        <link rel="stylesheet" href="assets/css/header/navegacao.css">
         <link rel="stylesheet" href="assets/css/header/menu.css">
-        <link rel="stylesheet" href="assets/css/header/menu__lista.css">
+        <link rel="stylesheet" href="assets/css/header/icones.css">
+        <link rel="stylesheet" href="assets/css/header/caixa_pesquisa.css">
+        <link rel="stylesheet" href="assets/css/main/novidades.css">
+        <link rel="stylesheet" href="assets/css/main/conteudo.css">
     </head>
     <body>
-        <header class="cabecalho">
-            <div class="menu">
+        <header class="nav_superior">
+            <nav class="menu">
                 <img src="" alt="">
-                <!-- <form action="">
-                    <input class="caixa-pesquisa" type="serch">
-                </form> -->
-                <nav class="#">
-                    <ul class="menu-lista">
-                        <li><a href="index.html"><img class="icone_inicio" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a></li>
-                        <!-- <li><a href="#">Categorias</a></li>     -->
-                        <!-- <li><a href="#">Sobre nós</a></li> -->
-                    </ul>
-                </nav>
-
-                <a><img class="lupa" src="assets/img/svg/Lupa.svg" alt="Lupa"></a>
-            </div>
+                <div class="menu-lista">
+                        <a class="inicio" href="index.html">Inicio<img class="icone_inicio" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a>
+                </div>
+                <div>
+                    <a class="pesquisa">Pesquisar<img class="lupa" src="assets/img/svg/Lupa.svg" alt="Lupa"></a>
+                </div>
+            </nav>
         </header>
-
-        <main>
-
+        <main class="conteudo">
+            <section class="novidades">
+                <article class="novidades_items">
+                    <h2 class="novidades_titulo">Roupas</h2>
+                </article>
+                <article class="novidades_items">
+                    <h2 class="novidades_titulo">Jogos</h2>
+                </article>
+                <article class="novidades_items">
+                    <h2 class="novidades_titulo">Animes</h2>
+                </article>
+            </section>
         </main>
-
         <footer>Todos os direitos reservados &copy;2021</footer>
+        <script src="assets/js/script.js"></script>
     </body>
-
-    <script src="assets/js/script.js">
-
-    </script>
+ 
 </html>
