@@ -5,3 +5,11 @@
     z-index: 1;
     top: 0;
 }
+
+.nav_divisao {
+    display: flex;
+}
+
+.nav_selecao {
+    display: flex;
+}
