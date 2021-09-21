@@ -1,0 +1,6 @@
+@import url(variaveis.css);
+@import url(responsivo.css);
+
+body {
+    font-family: "Oswald", sans-serif;
+}

@@ -11,6 +11,11 @@
     margin: 0 0 0 1rem; 
 }
 
+.menu-lista:hover {
+    color: rgb(255, 219, 13);
+    border-bottom: solid 3PX #3D88C7;
+}
+
 .inicio {
     color: #000000;
     cursor: pointer;
@@ -21,4 +26,8 @@
 
 .inicio:hover {
     color: rgb(255, 219, 13);
+}
+
+.inicio-mobile { 
+    cursor: pointer;
 }

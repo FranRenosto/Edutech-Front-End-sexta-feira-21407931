@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
        
         <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/responsivo.css">
+        <link rel="stylesheet" href="assets/css/base.css/base.css">
         <link rel="stylesheet" href="assets/css/header/navegacao.css">
         <link rel="stylesheet" href="assets/css/header/menu.css">
         <link rel="stylesheet" href="assets/css/header/icones.css">
@@ -21,17 +21,18 @@
     <body>
         <header class="nav_superior">
             <nav class="menu">
-                <img src="" alt="">
+                <img src="/assets/img/logo_jam.png" alt="">
                 <div class="menu-lista">
-                        <a class="inicio" href="index.html">Inicio<img class="icone_inicio" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a>
-                </div>
-                <div>
-                    <a class="pesquisa">Pesquisar<img class="lupa" src="assets/img/svg/Lupa.svg" alt="Lupa"></a>
+                        <a class="inicio" href="index.html"><span class="inicio-desktop">Inicio</span><img class="inicio-mobile" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a>
                 </div>
                 <div class="nav-divisao">
                     <a class="nav_selecao" href="jogos.html">Jogos</a>
                     <a class="nav_selecao" href="anime.html">Anime</a>
                     <a class="nav_selecao" href="moda.html">Moda</a>
+                </div>
+                <div class="barra-pesquisa">
+                    <input type="search" class="pesquisa" placeholder="pesquisar">                    
+                    <img class="lupa" src="assets/img/svg/Lupa.svg" alt="Lupa">                  
                 </div>
             </nav>
         </header>
