@@ -2,5 +2,23 @@
 @import url(responsivo.css);
 
 body {
+    background: #e5e5e5;
     font-family: "Oswald", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 17px;
+    margin: 0 2px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e2e2e2;
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 56px;
+    background: #2e2e2e;
+    background-clip: content-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
 }

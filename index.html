@@ -21,18 +21,20 @@
     <body>
         <header class="nav_superior">
             <nav class="menu">
-                <img src="/assets/img/logo_jam.png" alt="">
                 <div class="menu-lista">
-                        <a class="inicio" href="index.html"><span class="inicio-desktop">Inicio</span><img class="inicio-mobile" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a>
+                    <a href="index.html"><img class="logo" src="assets/img/svg/logo_jam 1.svg" alt=""></a>
+                    <a class="inicio" href="index.html"><span class="inicio-desktop ativo">Inicio</span><img class="inicio-mobile" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a>
                 </div>
-                <div class="nav-divisao">
-                    <a class="nav_selecao" href="jogos.html">Jogos</a>
-                    <a class="nav_selecao" href="anime.html">Anime</a>
-                    <a class="nav_selecao" href="moda.html">Moda</a>
-                </div>
+                <ul class="nav_divisao">
+                    <li class="nav-item">
+                        <a class="nav_selecao" href="jogos.html">Jogos</a>
+                        <a class="nav_selecao" href="anime.html">Anime</a>
+                        <a class="nav_selecao" href="moda.html">Moda</a>
+                    </li>
+                </ul>
                 <div class="barra-pesquisa">
-                    <input type="search" class="pesquisa" placeholder="pesquisar">                    
-                    <img class="lupa" src="assets/img/svg/Lupa.svg" alt="Lupa">                  
+                    <input type="search" id="pesquisa" placeholder="Pesquisar">                    
+                    <span class="lupa"></span>           
                 </div>
             </nav>
         </header>
@@ -41,14 +43,23 @@
                 <img class="imagem_oferta" src="assets/img/Oferta-de-Inverno.jpg" alt="">
             </div>
             <section class="novidades">
-                <article class="novidades_items">
-                    <h2 class="novidades_titulo">Roupas</h2>
+                <h2 class="novidades-titulo">Destaques da semana</h2>
+                <article class="novidades-estante">
+                    <ul class="novidades-lista">
+                        <a class="novidades_items" href="camiseta_psycho.html"></a>
+                        <a href="genshin_impact.html"><img src="assets/img/destaque_da_semana/image 2.jpg" alt=""></a>
+                        <a href="jujutsu_no_kaisen.html"><img src="assets/img/destaque_da_semana/image 3.jpg" alt=""></a>
+                    </ul>
                 </article>
-                <article class="novidades_items">
-                    <h2 class="novidades_titulo">Jogos</h2>
+
+                <h2 class="novidades_titulo">Promoções</h2>
+                <article class="novidades-items">
+                    
                 </article>
-                <article class="novidades_items">
-                    <h2 class="novidades_titulo">Animes</h2>
+                
+                <h2 class="novidades_titulo">Novidades</h2>
+                <article class="novidades-items">
+                    
                 </article>
             </section>
         </main>

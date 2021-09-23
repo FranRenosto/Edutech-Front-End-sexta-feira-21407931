@@ -3,5 +3,8 @@
 }
 
 .imagem_oferta {
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
 }

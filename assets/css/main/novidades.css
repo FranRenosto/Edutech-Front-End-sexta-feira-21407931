@@ -1,7 +1,39 @@
 .novidades {
-    display: grid;
+    background: #f2f2f2;
 }
 
-.novidades_titulo {
+.novidades-titulo {
+    margin: 0 0 1rem 0;
     font-family: inherit;
+    font-size: 3rem;
+}
+
+.novidades-lista {
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 33,33% 33,33% 33,33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    margin: 0 70px;
+    height: calc(100vh - 50px);
+    height: 300px;
+}
+
+.novidades-lista::-webkit-scrollbar {
+    width: 10px;
+}
+
+.novidades-lista::-webkit-scrollbar-track {
+    background: #e2e2e2;
+}
+
+.novidades-lista::-webkit-scrollbar-thumb {
+    height: 56px;
+    background: #2e2e2e;
+    background-clip: content-box;
+    border-radius: 8px;
+}
+
+.novidades_items {
+    background: url(../../img/destaque_da_semana/image\ 1.jpg) center / cover no-repeat;
+    grid-row: 1 / 4;
 }

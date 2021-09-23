@@ -1,10 +1,31 @@
-.pesquisa {
+#pesquisa {
     background: #fdfdfd;
     cursor: pointer;
-    display: flex;
+    margin: auto 0;
     font-size: 2rem;
+    height: 30px;
+    width: 300px;
+    border: solid 0.5px #000000;
 }
 
 .barra-pesquisa {
     display: flex;
+    flex-grow: 0;
+}
+
+.lupa {
+    background: url(../../img/Lupa.png) no-repeat;
+    background-size: 50px 50px;
+    background-position: center;
+    cursor: pointer;
+    flex-direction: center;
+    justify-content: column;
+    margin: auto 2rem;
+}
+
+.lupa:hover {
+    background: url(../../img/Lupa-hover.png) #3D88C7 no-repeat;
+    background-size:  50px 50px;
+    background-position: left; 
+    border-radius: 0 40% 40% 0;
 }

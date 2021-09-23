@@ -1,7 +1,6 @@
 .menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -11,21 +10,34 @@
     margin: 0 0 0 1rem; 
 }
 
-.menu-lista:hover {
+.menu-lista:hover{
     color: rgb(255, 219, 13);
-    border-bottom: solid 3PX #3D88C7;
+}
+
+.logo {
+    display: flex;
 }
 
 .inicio {
     color: #000000;
     cursor: pointer;
     display: flex;
+    flex-direction: column;
+    justify-content: end;
     font-size: 2rem;
     text-decoration: none;
 }
 
-.inicio:hover {
+.inicio-desktop {
+    margin: 0 0 0 2rem;
+}
+
+.inicio-desktop:hover{
     color: rgb(255, 219, 13);
+}
+
+.inicio-desktop.ativo{
+    border-bottom: solid 3PX #3D88C7;
 }
 
 .inicio-mobile { 
