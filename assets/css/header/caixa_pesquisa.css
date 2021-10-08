@@ -1,31 +1,29 @@
 #pesquisa {
-    background: #fdfdfd;
+    background: var(--branco);
     cursor: pointer;
     margin: auto 0;
-    font-size: 2rem;
-    height: 30px;
-    width: 300px;
-    border: solid 0.5px #000000;
+    border: solid 0.5px var(--preto);
 }
 
-.barra-pesquisa {
+.barra_pesquisa {
     display: flex;
     flex-grow: 0;
 }
 
 .lupa {
     background: url(../../img/Lupa.png) no-repeat;
-    background-size: 50px 50px;
     background-position: center;
+    background-size: 50px 50px;
     cursor: pointer;
     flex-direction: center;
     justify-content: column;
-    margin: auto 2rem;
+    margin: auto 1.75rem;
+    padding: 0 1rem;
 }
 
 .lupa:hover {
-    background: url(../../img/Lupa-hover.png) #3D88C7 no-repeat;
+    background: url(../../img/Lupa-hover.png) var(--azul) no-repeat;
     background-size:  50px 50px;
-    background-position: left; 
-    border-radius: 0 40% 40% 0;
+    background-position: center; 
+    border-radius: 0 20px 20px 0;
 }

@@ -1,0 +1,22 @@
+.cartaz_oferta {
+   background: linear-gradient(#e5e5e5, #fafafa);
+    margin: 0 100px;
+}
+
+.cartaz_jogos {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+ }
+
+
+.imagem_cartaz {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+
+.imagem_jogos {
+    border-radius: 15px;
+}

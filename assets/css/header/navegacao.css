@@ -1,5 +1,5 @@
-.nav_superior {
-    background-color: #DFF9FFFF;
+.nav {
+    background-color: var(--azul-claro);
     padding: 1rem;
     position: sticky;
     z-index: 1;
@@ -7,24 +7,32 @@
 }
 
 .nav_divisao {
+    display: flex; 
+    margin: auto 0;
 }
 
-.nav-item {
+.nav_item {
     display: flex;
     align-items: end;
     justify-content: center;
 }
 
 .nav_selecao {
-    color: #000000;
-    display: flex;
+    color: var(--preto);
     margin: 0 1rem 0 0;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    padding-bottom: 0.6rem;
+    /* 1rem 0.5rem 0.6rem */
 }
 
 .nav_selecao:hover {
-    color: orange;
-    border-bottom: solid 3px #3D88C7;
+    color: var(--amarelo);
+    border-bottom: solid 3px var(--azul);
     cursor: pointer;
+    padding-bottom: 0.5rem;
+}
+
+.nav_selecao.ativo {
+    border-bottom: solid 3PX var(--azul);
 }

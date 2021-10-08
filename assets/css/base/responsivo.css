@@ -1,0 +1,164 @@
+@media screen and (min-width: 320px) {
+    .inicio-mobile {
+        width: 300px
+    }
+
+    .inicio-desktop {
+        display: none;
+    }
+
+    .logo {
+        height: 80px;
+    }
+
+    .lupa {
+        height: 100px;
+        width: 300px;
+    }
+    
+    .novidades {
+        padding: 3rem;
+    }
+
+    .novidades-lista {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+    }
+
+    .novidades-items {
+        margin: 0 1rem 0 0;
+    }
+
+    .rodape {
+        font-size: 5rem;
+        padding: 5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .inicio-mobile {
+        width: 100px;
+    }
+
+    .nav_selecao {
+        display: none;
+    }
+
+    .nav-item {
+        margin: 0 auto
+    }
+
+    .lupa {
+        background-size: 70px 70px;
+        height: 70px;
+        width: 100px;
+    }
+
+    #pesquisa { 
+        display: none;
+    }
+
+    .cartaz_jogos img {
+        transform: translate(-10%);    
+    }
+
+    .conteudo {
+        margin: 0;
+    }
+
+    .degrade {
+        margin: 0;
+    }
+
+    .imagem_jogos {
+        max-width: 200%;
+    }
+
+
+    .novidades {
+        padding: 3rem;
+    }
+
+    .novidades-lista {
+        height: 300px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .novidades {
+        padding: 3rem;
+    }
+
+    .inicio-desktop {
+        display: block;
+    }
+
+    .inicio-mobile {
+        display: none;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .nav_selecao {
+        display: inline-block;
+    }
+
+    .nav_item {
+        margin: 0 0 0 10rem;
+    }
+
+    .lupa {
+        width: 50px;
+        height: 50px;
+    }
+
+    #pesquisa {
+        display: flex;
+        font-size: 1rem;
+        height: 30px;
+        width: 250px;
+    }
+
+    .rodape {
+        font-size: 2rem;
+        padding: 2rem;
+    }
+
+    .cartaz_jogos img {
+        transform: translate(5.5%);    
+    }
+
+    .conteudo {
+        margin: 0 3rem;
+    }
+
+    .degrade {
+        margin: 0 4rem;
+    }
+
+    .imagem_jogos {
+        max-width: 90%;
+    }
+
+    .novidades-lista {
+        overflow-y: auto;
+        margin: 0 70px;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+
+    .novidades_items {
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #pesquisa {
+        font-size: 1.5rem;
+        height: 40px;
+        width: 300px;
+    }
+}
