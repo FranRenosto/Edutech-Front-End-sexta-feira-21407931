@@ -82,7 +82,9 @@
     .novidades-lista {
         height: 300px;
     }
-
+    .titulo_branco {
+      font-size: 5rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -141,6 +143,10 @@
 
     .imagem_jogos {
         max-width: 90%;
+    }
+    
+    .titulo_branco {
+      font-size: 28px;
     }
 
     .novidades-lista {

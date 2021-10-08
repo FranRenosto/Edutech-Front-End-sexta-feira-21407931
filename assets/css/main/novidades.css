@@ -1,6 +1,5 @@
 .titulo_branco {
     color: #e2e2e2;
-    font-size: 28px;
     margin: 0 0 1rem 5rem; 
     padding-top: 1rem;
 }
@@ -13,6 +12,7 @@
     margin: 0 0 1rem 0;
     font-family: inherit;
     font-size: 3rem;
+    padding-top: 4rem;
     color: #1a1a1a;
 }
 
