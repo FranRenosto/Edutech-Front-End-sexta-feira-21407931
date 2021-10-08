@@ -6,49 +6,70 @@
         <title>JAM</title>
 
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" href="assets/img/logo_jam.png">
        
         <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/base.css/base.css">
+        <link rel="stylesheet" href="assets/css/base/base.css">
         <link rel="stylesheet" href="assets/css/header/navegacao.css">
         <link rel="stylesheet" href="assets/css/header/menu.css">
         <link rel="stylesheet" href="assets/css/header/icones.css">
         <link rel="stylesheet" href="assets/css/header/caixa_pesquisa.css">
         <link rel="stylesheet" href="assets/css/main/novidades.css">
         <link rel="stylesheet" href="assets/css/main/conteudo.css">
-        <link rel="stylesheet" href="assets/css/main/ofertas.css">
+        <link rel="stylesheet" href="assets/css/main/cartaz.css">
         <link rel="stylesheet" href="assets/css/footer/rodape.css">
     </head>
     <body>
-        <header class="nav_superior">
+        <header class="nav">
             <nav class="menu">
-                <img src="/assets/img/logo_jam.png" alt="">
-                <div class="menu-lista">
-                        <a class="inicio" href="index.html"><span class="inicio-desktop">Inicio</span><img class="inicio-mobile" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"></a>
+                <div class="menu_lista">
+                    <a href="index.html"><img class="logo" src="assets/img/svg/logo_jam 1.svg" alt=""></a>
+                    <a class="inicio" href="index.html"><span class="inicio-desktop ativo">Inicio</span></a>
                 </div>
-                <div class="nav-divisao">
-                    <a class="nav_selecao" href="jogos.html">Jogos</a>
-                    <a class="nav_selecao" href="anime.html">Anime</a>
-                    <a class="nav_selecao" href="moda.html">Moda</a>
-                </div>
-                <div class="barra-pesquisa">
-                    <input type="search" class="pesquisa" placeholder="pesquisar">                    
-                    <img class="lupa" src="assets/img/svg/Lupa.svg" alt="Lupa">                  
+                <ul class="nav_divisao">
+                    <li class="nav_item">
+                        <img class="inicio-mobile" src="assets/img/svg/Icone_inicio.svg" alt="Inicio"> 
+                        <a class="nav_selecao" href="jogos.html">Jogos</a>
+                        <a class="nav_selecao" href="anime.html">Anime</a>
+                        <a class="nav_selecao" href="moda.html">Moda</a> 
+                    </li>
+                </ul>
+                <div class="barra_pesquisa">
+                    <input type="search" id="pesquisa" placeholder="Pesquisar">                    
+                    <span class="lupa"></span>           
+                    <span class=""><img src="assets/img/svg/menu-toggle.svg" alt=""></span>
                 </div>
             </nav>
         </header>
         <main class="conteudo">
             <div class="cartaz_oferta">
-                <img class="imagem_oferta" src="assets/img/Oferta-de-Inverno.jpg" alt="">
+                <img class="imagem_cartaz" src="assets/img/Oferta-de-Inverno.jpg" alt="">
             </div>
             <section class="novidades">
-                <article class="novidades_items">
-                    <h2 class="novidades_titulo">Roupas</h2>
+                <h2 class="novidades-titulo">Destaques da semana</h2>
+                <article class="novidades-conteudo">
+                    <ul class="novidades-lista">
+                        <a class="destaques-items" href="camiseta_psycho.html"></a>
+                        <a class="destaques-items"href="genshin_impact.html"></a>
+                        <a class="destaques-items"href="jujutsu_no_kaisen.html"></a>
+                    </ul>
                 </article>
-                <article class="novidades_items">
-                    <h2 class="novidades_titulo">Jogos</h2>
+
+                <h2 class="novidades-titulo">Promoções</h2>
+                <article class="#">
+                    <ul class="novidades-lista">
+                        <a class="promocoes-items" href="casaco_tanjiro.html"></a>
+                        <a class="promocoes-items" href="casaco_giyu.html"></a>
+                    </ul>
                 </article>
-                <article class="novidades_items">
-                    <h2 class="novidades_titulo">Animes</h2>
+                
+                <h2 class="novidades-titulo">Novidades</h2>
+                <article class="novidades-items">
+                    <article class="#">
+                        <ul class="novidades-lista">
+                            <a class="novidades-items" href="casaco_tanjiro.html"><img src="assets/img/destaque_da_semana/god_of_war.jpg" alt=""></a>
+                    </article>
                 </article>
             </section>
         </main>

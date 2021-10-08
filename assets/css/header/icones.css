@@ -1,9 +1,0 @@
-.lupa {
-    display: flex;
-    margin: 0 2rem;
-    cursor: pointer;
-}
-
-.lupa:hover {
-    background-color: rgb(255, 255, 255);
-}

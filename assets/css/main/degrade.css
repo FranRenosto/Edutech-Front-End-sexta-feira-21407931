@@ -1,0 +1,19 @@
+.degrade {
+    background: linear-gradient(rgba(2, 166, 126, 0.9375)10%, rgba(0, 117, 202, 1)40%, rgba(255, 0, 0, 1) 120%);
+    height: 1500px;
+}
+
+.degrade-verde {
+    background: linear-gradient(rgba(2, 166, 126, 0.9375) 50%, rgba(29, 10, 0, 0));
+    height: 500px;
+}
+
+.degrade-azul {
+    background: linear-gradient(rgba(0, 117, 202, 0), rgba(0, 117, 202, 1)25%, rgba(0, 117, 202, 1)25%, rgba(0, 117, 202, 0));
+    height: 500px;
+}
+
+.degrade-vermelho {
+    background: linear-gradient(rgba(255, 0, 0, 0), rgba(255, 0, 0, 1)50%);
+    height: 500px; 
+}
